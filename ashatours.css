@@ -1,0 +1,302 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+header{
+    flex-wrap: nowrap;
+    background-color: rgb(64, 189, 242);
+    text-align: left;
+    font-size: 65px;
+    padding: 40px;
+    border-bottom: 1px solid rgb(224, 214, 214);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 1px grey;
+    background-position: center top;
+    background-size:1510px;
+    background-image: url(p1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+input{
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    border-radius: 100px;
+    border: 1px solid rgb(162, 160, 160);
+    padding: 8px;
+    box-shadow: 1px 1px 3px 0px rgb(183, 175, 175);
+}
+button{
+    flex-wrap: nowrap;
+    border-radius: 40px;
+    border: 1px solid rgb(120, 108, 108);
+    color: white;
+    background-color: rgb(108, 106, 110);
+    padding: 8px;
+    box-shadow: 0px 0px 0px 1px rgb(183, 175, 175);
+    width: 100px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(36, 123, 167);
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left; 
+    font-size: medium;
+    color: black;
+    overflow: hidden;
+    gap: 10px;
+}
+.nav2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right; 
+    font-size: medium;
+    color: black;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1px;
+}
+.item-1{
+    background-color:  rgb(108, 106, 110);
+    border-radius: 100px;
+    padding:10px ;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 0px 0px 1px rgb(183, 175, 175);
+}
+.item-1:hover{
+    cursor: pointer;
+    background-color: rgb(36, 123, 167);
+}
+.navigationbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    gap: 35px;
+}
+.item{
+    display: flex;
+    color: rgba(0, 0, 0, 0.697);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+}
+.item:hover{
+    cursor: pointer; 
+    color: black;
+    transform: scale(1.04) ;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-item{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin: 35px;
+    flex-basis: 400px;
+    box-shadow:6px 6px 6px rgb(194, 191, 191);
+    height: 550px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flex-item:hover{
+    cursor: pointer;
+    transform: scale(1.03) ;
+   
+}
+#flex-item-1{
+    background-image: url(pexels-fabianwiktor-994605.jpg);
+   
+}
+
+
+#flex-item-2{
+    background-image: url(pexels-julia-volk-6061233.jpg);
+    
+}
+
+#flex-item-3{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+}
+#flex-item-4{
+    background-image: url(pexels-belle-co-99483-847393.jpg);
+   
+}
+#flex-item-5{
+    background-image: url(pexels-joshkjack-135018.jpg);
+  
+}
+#flex-item-6{
+    background-image: url(pexels-pixabay-161276.jpg);
+    
+}
+#flex-item-7{
+    background-image: url(pexels-pixabay-417173.jpg);
+ 
+}
+#flex-item-8{
+    background-image: url(pexels-visitalmaty-848618.jpg);
+  
+}
+#flex-item-9{
+    background-image: url(pexels-sudipta-1603650.jpg);
+   
+}
+#flex-item-10{
+    background-image: url(pexels-visitalmaty-848618.jpg);
+
+}
+#flex-item-11{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    
+}
+#flex-item-12{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+#flex-item-13{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    
+}
+#flex-item-14{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    
+}
+#flex-item-15{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+ 
+}
+#flex-item-16{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+   
+}
+#flex-item-17{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    
+}
+#flex-item-18{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+    
+}
+#flex-item-19{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+   
+}
+#flex-item-20{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+  
+}
+#flex-item-21{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+  
+}
+#flex-item-22{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+   
+}
+#flex-item-23{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+  
+}
+#flex-item-24{
+    background-image: url(pexels-eberhardgross-534164.jpg);
+   
+}
+
+img{
+  
+}
+.footer{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(60, 60, 61);
+    color: #b6b1b1;
+    padding: 80px;
+    margin: 0px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+p{
+    justify-content: center;
+    color:  #b6b1b1;
+    text-align: left;
+    font-size: 14px;
+}
+b{
+    font-weight: lighter;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about{
+    text-align: left;
+    margin-right:100px;
+    
+    
+}
+.support{
+    padding-top: 20px;
+    margin-right:100px ;
+}
+.hosting{
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+}
+.Copyright{
+    padding-top: 30px;
+}
+.smh{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+}
+.fa-instagram{
+    color: rgb(223, 123, 123);
+}
+.fa-linkedin{
+    color: rgb(128, 163, 237);
+}
+.fa-envelope{
+    color: rgb(227, 227, 227);
+}
+
+.nav3{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: left;
+    text-decoration: solid;
+    color:rgb(255, 255, 255);
+
+}
+h2{
+    color: rgb(251, 251, 251);
+    text-align: left;
+}
+
+.fa-heart:hover{
+    cursor: pointer;
+
+    
+}
